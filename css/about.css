@@ -34,15 +34,15 @@
 }
 
 .about__item-top {
-	background-image: url(images/icons/top.svg);
+	background-image: url(../images/icons/top.svg);
 }
 
 .about__item-master {
-	background-image: url(images/icons/master.svg);
+	background-image: url(../images/icons/master.svg);
 }
 
 .about__item-gurantee {
-	background-image: url(images/icons/gurantee.svg);
+	background-image: url(../images/icons/gurantee.svg);
 }
 
 .about__item-title {
