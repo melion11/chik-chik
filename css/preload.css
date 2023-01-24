@@ -1,0 +1,32 @@
+.preload {
+	position: relative;
+	min-height: 100px;
+}
+.preload::after {
+	content: '';
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	top: calc(50% - 28px);
+	left: calc(50% - 28px);
+	border: 12px double #f6f3e3;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-left-style: solid;
+	animation: rotate 0.5s infinite linear;
+	-webkit-animation: rotate 0.5s infinite linear;
+}
+
+@keyframes rotate {
+	to {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+}
+	
+}
